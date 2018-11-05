@@ -10,7 +10,7 @@ summary = "Designed 3D printed trophy for local roller derby league"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["DIY", "3D"]
+tags = ["DIY"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -45,7 +45,5 @@ url_code = ""
 +++
 
 Insert description of the various printed objects here. 
-
-{{< figure library="1" src="MVP_trophy.jpg" title="Trophy" >}}
 
 
