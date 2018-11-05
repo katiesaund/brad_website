@@ -65,8 +65,3 @@ highlight = true
 #caption = "Glioma of the left parietal lobe. CT scan with contrast enhancement. Source: #https://commons.wikimedia.org/wiki/File:Glioma.gif"
 
 +++
-#{{% staticref "file/MotionPlanningforManipulatorsinUnknownEnvironmentswithContactSensingUncertainty.pdf" "newtab" %}} Download the pdf{{% /staticref %}}
-
-#Watch the demo: 
-
-#{{< youtube EjCq1Q4nNUc >}}
