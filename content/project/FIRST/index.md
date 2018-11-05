@@ -1,16 +1,16 @@
 +++
 # Project title.
-title = "Drone"
+title = "FIRST Robotics Mentor"
 
 # Date this page was created.
-date = 2014-01-01
+date = 2013-01-01
 
 # Project summary to display on homepage.
-summary = "Built a drone"
+summary = "Mentor to a FIRST robotics team since 2013"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["drone", "DIY"]
+tags = ["teaching", "FIRST", "service"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -44,4 +44,4 @@ url_code = ""
   focal_point = "Smart"
 +++
 
-Insert description of the drone here. 
+Insert description of the FIRST team here.
