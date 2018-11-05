@@ -1,8 +1,8 @@
 +++
-title = "Motion Planning for Manipulators in Unknown Environments with Contact Sensing Uncertainty"
+title = "Modular platforms for advanced inspection, locomotion, and manipulation"
 
 # Date first published.
-date = "2018-11-01"
+date = "2017-01-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Ansari A", "Whitman J", "Saund B"]
