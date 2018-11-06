@@ -23,12 +23,12 @@ weight = 5
   year = 2017
 
 [[education.courses]]
-  course = "Masters in Robotics"
+  course = "MS in Robotics"
   institution = "Carnegie Mellon University"
   year = 2017
 
 [[education.courses]]
-  course = "BSc in Mechanical Engineering"
+  course = "BS in Mechanical Engineering"
   institution = "California Institute of Technology"
   year = 2012
  
@@ -36,4 +36,4 @@ weight = 5
 
 # Biography
 
-Brad Saund is a PhD candidate in the Dmitry Berenson Lab at the University of Michigan. His research interests include manipulation, path planning, and teleoperation.
+I'm a PhD candidate in the ARM Lab at the University of Michigan. I study robotic manipulation, path planning, localization, and teleoperation.
