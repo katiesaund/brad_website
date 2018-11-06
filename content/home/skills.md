@@ -31,7 +31,7 @@ weight = 7
   icon = "code-branch"
   icon_pack = "fas"
   name = "Deployment" 
-  description = "git & deployment to production environments"  
+  description = "git, linux & continuous deployment to production environments"  
   
 [[feature]]
   icon = "robot"

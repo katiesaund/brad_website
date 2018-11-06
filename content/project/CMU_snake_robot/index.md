@@ -44,7 +44,7 @@ url_code = ""
   focal_point = "Smart"
 +++
 
-Insert description of the three videos here. 
+At Carnegie Mellon I used Hebi modules (the red motor-sensor package) to create redundant manipulators (robot arms with more than 6 joints). I wrote planning and control algorithms demonstrating how these skinning, long, snake-like robots can be used for inspection while manufacturing aircraft. Credit to Justus Hibshman for his help with the first video.
 
 {{< youtube otynG11GZ24 >}}
 {{< youtube 27QveuLkwWI >}}
