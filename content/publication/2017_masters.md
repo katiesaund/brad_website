@@ -5,7 +5,7 @@ title = "Planning and Localizing under Contact Uncertainty"
 date = "2017-07-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Saund B"]
+authors = ["Brad Saund"]
 # Publication type.
 # Legend:
 # 0 = Uncategorized
