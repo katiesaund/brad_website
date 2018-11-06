@@ -29,7 +29,7 @@ weight = 5
 
 [[education.courses]]
   course = "BS in Mechanical Engineering"
-  institution = "California Institute of Technology"
+  institution = "Caltech"
   year = 2012
  
 +++

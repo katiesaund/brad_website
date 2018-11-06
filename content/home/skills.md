@@ -22,21 +22,21 @@ weight = 7
 # * ai - academic icons (see https://jpswalsh.github.io/academicons/)
 
 [[feature]]
-  icon = "r-project"
-  icon_pack = "fab"
-  name = "R"
-  description = "90%"
+  icon = "code"
+  icon_pack = "fas"
+  name = "Python, C++, ROS, Java, & Matlab"
+  description = ""
   
 [[feature]]
-  icon = "chart-line"
+  icon = "code-branch"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
+  name = "git & deployment to production environments "
+  description = ""  
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "robot"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Robotics"
+  description = "Path Planning with Uncertainty, Sensor Fusion, Localization, Autonomous Vision and Navigation"
 
 +++
