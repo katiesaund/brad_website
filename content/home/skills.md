@@ -24,19 +24,20 @@ weight = 7
 [[feature]]
   icon = "code"
   icon_pack = "fas"
-  name = "Python, C++, ROS, Java, & Matlab"
-  description = ""
+  name = "Programming" 
+  description = "Python, C++, ROS, Java, & Matlab""
   
 [[feature]]
   icon = "code-branch"
   icon_pack = "fas"
-  name = "git & deployment to production environments "
-  description = ""  
+  name = "Deployment" 
+  description = "git & deployment to production environments"  
   
 [[feature]]
   icon = "robot"
   icon_pack = "fas"
   name = "Robotics"
-  description = "Path Planning with Uncertainty, Sensor Fusion, Localization, Autonomous Vision and Navigation"
+  description = "Path planning, sensor fusion, localization, 
+  * autonomous vision and navigation"
 
 +++
