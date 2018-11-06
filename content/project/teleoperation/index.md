@@ -10,7 +10,7 @@ summary = "Operate robotic arms with Vive to fill shopping bag with groceries"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["virutal-reality", "manipulation", "teleoperation"]
+tags = ["VR", "manipulation", "teleoperation"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -44,8 +44,7 @@ url_code = ""
   focal_point = "Smart"
 +++
 
-Description of teleoperation set up here. 
+In the video, the top of the screen displays the video from the perspective of the robot. The bottom of the screen displays the video feed inside the Vive headset. The user is driving the robot with the Vive handsets to fill a shopping bags with a handfull of groceries. 
 
-Fingertips in action: 
 {{< youtube EvpxsqET01c >}}
 
