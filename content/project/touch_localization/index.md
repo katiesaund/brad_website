@@ -44,5 +44,5 @@ url_code = ""
   focal_point = "Smart"
 +++
 
-Description of touch localization here. 
+Performing detailed machining tasks requires a robot to precisely know the position of the workpiece. Using a modified particle filter and leveraging information gain, I was able to choose efficient locations to sense with a touch probe, and store and update the belief of the object's position.
 

@@ -44,6 +44,6 @@ url_code = ""
   focal_point = "Smart"
 +++
 
-Insert description of the drone here. 
+I built a hexa-copter UAV with Sean Holt back in 2013 and got some nice aerial footage of Seattle.
 
 

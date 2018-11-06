@@ -44,4 +44,4 @@ url_code = ""
   focal_point = "Smart"
 +++
 
-Insert description of the FIRST team here.
+Since 2013 I have served as a mentor for the FIRST robotics team "Error 404: Page Not Found". I have worked with the same group of kids as they progressed from Lego League to FTC.
