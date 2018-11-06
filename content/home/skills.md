@@ -37,7 +37,6 @@ weight = 7
   icon = "robot"
   icon_pack = "fas"
   name = "Robotics"
-  description = "Path planning, sensor fusion, localization, 
-  * autonomous vision and navigation"
+  description = "Path planning, sensor fusion, localization, autonomous vision and navigation"
 
 +++
