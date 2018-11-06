@@ -13,7 +13,7 @@ summary = "Designed 3D printed robotic fingertips to improve grip on cloth"
 tags = ["DIY", "manipulation"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://grabcad.com/library/robotiq-rough-fingertip-1"
+external_link = ""
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -31,7 +31,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/georgecushen"}]
+url_custom = [{icon_pack = "fas", icon="external-link-alt", name="Get CAD model", url = "https://grabcad.com/library/robotiq-rough-fingertip-1"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
