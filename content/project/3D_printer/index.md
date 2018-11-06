@@ -47,5 +47,5 @@ url_code = ""
 A custom fingertip for the Robotiq 3 finger gripper. The roughness and teeth help grab soft objects and cloth. The outward angle helps the teeth pull in cloth as the gripper closes.
 
 Fingertips in action: 
-{{< youtube bVZSCfAkl0I}}
+{{< youtube bVZSCfAkl0I >}}
 
