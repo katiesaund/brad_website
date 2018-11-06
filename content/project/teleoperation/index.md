@@ -10,7 +10,7 @@ summary = "Operate robotic arms with Vive to fill shopping bag with groceries"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["virutal reality", "manipulation", "teleoperation"]
+tags = ["virutal-reality", "manipulation", "teleoperation"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -47,5 +47,5 @@ url_code = ""
 Description of teleoperation set up here. 
 
 Fingertips in action: 
-{{< youtube EvpxsqET01c}}
+{{< youtube EvpxsqET01c >}}
 
