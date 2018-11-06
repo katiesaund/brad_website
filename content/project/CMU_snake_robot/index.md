@@ -1,16 +1,16 @@
 +++
 # Project title.
-title = "Drone"
+title = "Carnegie Mellon: Snake Robot"
 
 # Date this page was created.
-date = 2014-01-01
+date = 2015-01-01
 
 # Project summary to display on homepage.
-summary = "Built a drone"
+summary = "Videos of snake robot used for Master's thesis"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["drone", "DIY"]
+tags = ["snake", "video", "demo"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -44,6 +44,9 @@ url_code = ""
   focal_point = "Smart"
 +++
 
-Insert description of the drone here. 
+Insert description of the three videos here. 
 
+{{< youtube otynG11GZ24 >}}
+{{< youtube 27QveuLkwWI >}}
+{{< youtube dNvAfWvhU30 >}}
 

@@ -1,19 +1,19 @@
 +++
 # Project title.
-title = "3D printer designs"
+title = "3D printed robotic fingertips"
 
 # Date this page was created.
 date = 2017-01-01
 
 # Project summary to display on homepage.
-summary = "Designed 3D printed trophy for local roller derby league"
+summary = "Designed 3D printed robotic fingertips to improve grip on cloth"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["DIY"]
+tags = ["DIY", "manipulation"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = ""
+external_link = "https://grabcad.com/library/robotiq-rough-fingertip-1"
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -44,6 +44,8 @@ url_code = ""
   focal_point = "Smart"
 +++
 
-Insert description of the various printed objects here. 
+A custom fingertip for the Robotiq 3 finger gripper. The roughness and teeth help grab soft objects and cloth. The outward angle helps the teeth pull in cloth as the gripper closes.
 
+Fingertips in action: 
+{{< youtube bVZSCfAkl0I}}
 

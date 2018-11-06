@@ -1,16 +1,16 @@
 +++
 # Project title.
-title = "Drone"
+title = "Virtual reality robotic teleoperation"
 
 # Date this page was created.
-date = 2014-01-01
+date = 2018-10-01
 
 # Project summary to display on homepage.
-summary = "Built a drone"
+summary = "Operate robotic arms with Vive to fill shopping bag with groceries"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["drone", "DIY"]
+tags = ["virutal reality", "manipulation", "teleoperation"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -44,6 +44,8 @@ url_code = ""
   focal_point = "Smart"
 +++
 
-Insert description of the drone here. 
+Description of teleoperation set up here. 
 
+Fingertips in action: 
+{{< youtube EvpxsqET01c}}
 
