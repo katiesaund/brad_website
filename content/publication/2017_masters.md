@@ -15,7 +15,7 @@ authors = ["Brad Saund"]
 # 4 = Technical report
 # 5 = Book
 # 6 = Book chapter
-publication_types = ["4"]
+publication_types = []
 
 # Publication name and optional abbreviated version.
 publication = "Master's thesis"
