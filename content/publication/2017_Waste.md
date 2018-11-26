@@ -15,7 +15,7 @@ authors = ["Alexander Ansari", "Julian Whitman", "Brad Saund"]
 # 4 = Technical report
 # 5 = Book
 # 6 = Book chapter
-publication_types = ["1"]
+publication_types = []
 
 # Publication name and optional abbreviated version.
 publication = "Waste Management Symposium"

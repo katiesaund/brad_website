@@ -44,4 +44,4 @@ url_code = ""
   focal_point = "Smart"
 +++
 
-Insert description of the DNA lamp here. 
+Using painted PVC, my wife and I created a unique chandelier. PVC becomes flexible when heated to ~400F, which is how we created the double helix.

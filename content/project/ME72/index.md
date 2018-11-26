@@ -44,4 +44,4 @@ url_code = ""
   focal_point = "Smart"
 +++
 
-Insert description of the ME72 class and competition here. 
+Caltech's undergraduate ME curriculum includes a year-long project design course, culminating in a competition. Due to far too many hours on the drawing board, in CAD, and in the machine shop, Chris Hallacy, Janet Chen, and I proudly achieved 1st place.
