@@ -6,7 +6,7 @@ title = "Computer vision aided laundry sorting"
 date = 2017-01-01
 
 # Project summary to display on homepage.
-summary = "Computer vision aided laundry sorting"
+summary = "Robot picking through deformable objects to find target"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

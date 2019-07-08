@@ -6,7 +6,7 @@ title = "Drone"
 date = 2014-01-01
 
 # Project summary to display on homepage.
-summary = "Built a drone"
+summary = "Unmanned Aerial Vehicle for autonomous sky photography"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
