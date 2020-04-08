@@ -44,4 +44,6 @@ url_code = ""
   focal_point = "Smart"
 +++
 
-Since 2013 I have served as a mentor for the FIRST robotics team "Error 404: Page Not Found". I have worked with the same group of kids as they progressed from Lego League to FTC.
+From 2013 to 2020 I served as a mentor for the FIRST robotics team "Error 404: Page Not Found" in Seattle. I have worked with the same group of kids as they progressed from Lego League to FTC.
+
+They have all since graduated high school and gone on to college. The team website is available http://404robotics.com/
