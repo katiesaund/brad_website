@@ -4,7 +4,7 @@ date: "2020-04017T00:00:00Z"
 lastmod: "2020-04017T00:00:00Z"
 ---
 
-I made a ROS node that hooks up to a high quality video camera for automatically capturing my robotics experiments, using a bit of custom software and a piece of hardward called a [Capture Card](amzn.com/B0763TFZWT). This post will assume you know about [ROS](https://www.ros.org/). Code and documentation are available: https://github.com/UM-ARM-Lab/arm_video_recorder
+I made a ROS node that hooks up to a high quality video camera for automatically capturing my robotics experiments, using a bit of custom software and a piece of hardward called a [Capture Card](https://www.amzn.com/B0763TFZWT). This post will assume you know about [ROS](https://www.ros.org/). Code and documentation are available: https://github.com/UM-ARM-Lab/arm_video_recorder
 
 When my robots are working smoothly I naturally want to take videos. I may run an experiment for 100 trials, and I want a video of each one. In addition to the "typical" run I want to showcase the best and worst, and also show any unexpected failure cases.
 
