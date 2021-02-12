@@ -39,3 +39,7 @@ I built my setup around [mopidy](https://mopidy.com). Mopidy is a free python se
 
 ## Future expansion
 The binder full of barcodes is a convenient compact method of storing my hundreds of CDs worth of music, but it is not the prettiest. Fortunately it is easy to expand my setup using any input to the raspberry pi. I'm thinking of embedding RFID tags in nice wood carvings for my favorite albums. Placing these works of art over a hidden scanner will trigger the music is a classier manner than barcodes. Because my setup uses mopidy, these same sculptures could be used to trigger spotify playlists, radio streams, and podcasts too.
+
+
+
+WIth a little linux and python knowledge, you can create this musicbox. Check out my [my github repo](https://github.com/bsaund/musicbox) for instructions.
