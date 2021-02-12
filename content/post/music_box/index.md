@@ -18,7 +18,7 @@ Along came iTunes and the ability to fit “the library of congress” in your p
 Nowadays Spotify provides access to a still larger music library for a small monthly fee. At any time I can play any one of millions of songs. Why would you ever browse someone else’s spotify? Just have them send a link to a song. Why own music at all? Just participate in the endless scroll.
 
 
-Personally I like owning my music. I want to reminisce by browsing my favorite albums from high school. I want to leaf through my music on a physical medium, not a tiny phone screen. I want a friend to be able to browse through my collection and offer compliments and critiques on my taste. I want to avoid the bulk and hassle of a CD collection.
+Personally I like owning my music. I want to reminisce by browsing my favorite albums from high school. I want to leaf through my music on a physical medium, not a tiny phone screen. I want a friend to be able to browse through my collection and offer compliments and critiques on my taste. I however do not want the bulk and hassle of a CD collection.
 
 
 My solution is a binder of albums, each with a barcode. Scanning a barcode plays the album on my bluetooth speaker. 
@@ -27,12 +27,12 @@ My solution is a binder of albums, each with a barcode. Scanning a barcode plays
 ## The setup
 I own many songs that are not on spotify. Some are CDs of specific performances of my favorite classical pieces. Some are CDs of niche bands. Some are personal performances. And some random mp3s that have meaning to me. I don't trust Spotify to be around in 15 years, and I like browsing my music physically, not on a computer screen.
 
-I sorted my music by category (e.g. Classical, Pop,...), then by group, then optionally further by album, customizing my favorite playlists. I then generated a PDF of all this music. For each music folder I generate a barcode. Scanning the barcode sends a number to my raspberry pi which I capture in python. I look up the corresponding album and send a command to play the tracklist.
+I sorted my music by category (e.g. Classical, Pop,...), group, album, and optionally further, customizing my favorite playlists. I then generated a PDF of all this music. For each music folder I generated a barcode. Scanning the barcode sends a number to my raspberry pi which I capture in python. Python looks up the corresponding album and sends a command to play the tracklist.
 
-I built my setup around [mopidy](https://mopidy.com). Mopidy is a free python server that provides an HTTP interface for controlling music. You can play local files, spotify songs, podcasts, radio streams and more. With mopidy comes a few (bare-bones) websites from playing music, providing the searchability that a physical binder cannot.
+I built my musicbox around [mopidy](https://mopidy.com). Mopidy is a free python server that provides an HTTP interface for controlling music. You can play local files, spotify songs, podcasts, radio streams and more. With mopidy comes a few (bare-bones) websites from playing music, providing the searchability that a physical binder cannot.
 
 ![PDF Sample](img/pop_pdf.png)
-![PDF Sample](img/scanner_01.jpg)
+![PDF Sample](img/scanner_02.jpg)
 
 
 
