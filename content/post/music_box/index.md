@@ -1,7 +1,7 @@
 ---
 title: "My Musicbox"
-date: "2020-02017T00:00:00Z"
-lastmod: "2020-02017T00:00:00Z"
+date: "2021-02017T00:00:00Z"
+lastmod: "2021-02017T00:00:00Z"
 ---
 
 I built a raspberry pi music player that allows me to play any album I own by scanning a barcode from a binder. You can find code and instructions on [my github repo](https://github.com/bsaund/musicbox).
