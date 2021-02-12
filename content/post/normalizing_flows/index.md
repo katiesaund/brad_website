@@ -1,7 +1,7 @@
 ---
 title: "Normalizing Flows"
-date: "2020-04017T00:00:00Z"
-lastmod: "2020-04017T00:00:00Z"
+date: "2020-04-01T00:00:00"
+lastmod: "2020-04-01T00:00:00"
 math: "true"
 ---
 
