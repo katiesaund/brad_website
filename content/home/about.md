@@ -18,9 +18,9 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD candidate"
+  course = "PhD in Robotics (Planning)"
   institution = "University of Michigan"
-  year = 2017
+  year = 2021
 
 [[education.courses]]
   course = "MS in Robotics"
@@ -36,4 +36,4 @@ weight = 5
 
 # Biography
 
-I'm a PhD candidate in the ARM Lab at the University of Michigan. I study robotic manipulation, path planning, localization, and teleoperation.
+I recently obtained my PhD in the ARM Lab at the University of Michigan. I study robotic manipulation, path planning, localization, and teleoperation.
