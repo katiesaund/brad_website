@@ -2,7 +2,7 @@
 title = "CLASP: Constrained Latent Shape Projection for Refining Object Shape from Robot Contact"
 
 # Date first published.
-date = "2021-11-16"
+date = "2021-09-16"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Brad Saund", "Dmitry Berenson"]
