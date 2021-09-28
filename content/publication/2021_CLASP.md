@@ -70,8 +70,8 @@ highlight = true
 {{% staticref "file/CLASP.pdf" "newtab" %}} 
 Download the pdf{{% /staticref %}}
 
-#Watch the demo: 
+Watch the demo: 
 
-#{{< youtube f3nLH875nik >}}
+{{< youtube Jg-1ZjgNnYE >}}
 
 
