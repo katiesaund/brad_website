@@ -36,4 +36,4 @@ weight = 5
 
 # Biography
 
-I recently obtained my PhD in the ARM Lab at the University of Michigan. I study robotic manipulation, path planning, localization, and teleoperation.
+I recently obtained my PhD in the ARM Lab at the University of Michigan. I work on robotic learning, belief-space planning, and teleoperation.
