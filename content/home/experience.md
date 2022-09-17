@@ -18,6 +18,29 @@ date_format = "January 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+  title = "Software Engineer: Planning and Controls"
+  company = "Cruise"
+  company_url = "https://getcruise.com"
+  location = "San Francisco"
+  date_start = "2022-09-04"
+  date_end = ""
+  description = """
+  At Cruise I am part of a team building self-driving cars. I improve the planning and reasoning capabilities of the autonomous vehicles.
+  """
+
+[[experience]]
+  title = "Software Engineer: AWS Robotics"
+  company = "Amazon Web Services"
+  company_url = "http://aws.amazon.com"
+  location = "Sunnyvale, CA"
+  date_start = "2022-01-03"
+  date_end = ""
+  description = """
+  I prototyped a new AWS Robotics offering
+  """
+
 [[experience]]
   title = "PhD in robotics"
   company = "University of Michigan"
