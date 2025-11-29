@@ -1,6 +1,5 @@
 +++
-title = "Belief Representations for
-Planning with Contact Uncertainty (PhD Thesis)"
+title = "Belief Representations for Planning with Contact Uncertainty (PhD Thesis)"
 
 # Date first published.
 date = "2021-09-18"
