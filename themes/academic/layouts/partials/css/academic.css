@@ -575,11 +575,30 @@ ul.ul-interests li {
 
 ul.ul-edu {
   list-style: none;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 ul.ul-edu li {
   position: relative;
-  padding: 0px 15px 4px 3px;
+  padding: 0px 15px 4px 0;
+  display: flex;
+  align-items: center;
+}
+
+ul.ul-edu li .edu-logo {
+  flex: 0 0 4.0rem; /* logo column width */
+  margin-right: 0.75rem;
+}
+
+ul.ul-edu li .edu-logo img {
+  max-height: 3.5rem;
+  width: auto;
+  display: block;
+}
+
+ul.ul-edu li .edu-logo i {
+  font-size: 1.6rem;
 }
 
 ul.ul-edu li .description p {

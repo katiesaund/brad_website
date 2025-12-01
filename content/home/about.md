@@ -21,16 +21,21 @@ weight = 5
   course = "PhD in Robotics (Planning)"
   institution = "University of Michigan"
   year = 2021
+  logo = "M-robotics-logo-square.png"
 
 [[education.courses]]
   course = "MS in Robotics"
   institution = "Carnegie Mellon University"
   year = 2017
+  logo = "cmu-logo.jpg"
 
 [[education.courses]]
   course = "BS in Mechanical Engineering"
   institution = "Caltech"
   year = 2012
+  # Optional: per-degree logo shown instead of the graduation cap icon.
+  # Place the logo file in `static/img/` and set the filename here.
+  logo = "caltech-logo.png"
  
 +++
 
