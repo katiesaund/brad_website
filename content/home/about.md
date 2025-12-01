@@ -2,7 +2,7 @@
 # About/Biography widget.
 widget = "about"
 active = true
-date = 2016-04-20T00:00:00
+date = 2025-11-20T00:00:00
 
 # Order that this section will appear in.
 weight = 5
@@ -36,4 +36,4 @@ weight = 5
 
 # Biography
 
-I recently obtained my PhD in the ARM Lab at the University of Michigan. I work on robotic learning, belief-space planning, and teleoperation.
+I am a PhD Robotics Engineer with 10+ years of experience building autonomous systems, robotic evaluation frameworks, and planning algorithms.
