@@ -8,22 +8,19 @@
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 baseurl = "/"
 
-relativeurls = true
-canonifyurls = false
-
 # Title of your site
-title = "Brad Saund"
+title = "Academic"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2021"
+copyright = "&copy; 2018"
 
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
-ignoreFiles = ["_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
-paginate = 20
+paginate = 10
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
@@ -40,14 +37,8 @@ defaultContentLanguageInSubdir = false
 enableGitInfo = false
 
 [outputs]
-  home = [ "HTML", "CSS", "RSS", "search" ]
+  home = [ "HTML", "CSS", "RSS", "JSON" ]
   section = [ "HTML", "RSS" ]
-
-[outputFormats.search]
-  baseName = "search"
-  isPlainText = true
-  mediaType = "application/json"
-  notAlternative = true
 
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
@@ -60,22 +51,23 @@ enableGitInfo = false
   # AUTHOR SETUP
 
   # Your details.
-  name = "Brad Saund"
-  role = "PhD in robotics (Planning)"
+  name = "Lena Smith"
+  role = "Professor of Artificial Intelligence"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  # organizations = [ { name = "University of Michigan", url = "http://arm.eecs.umich.edu/" } ]
+  organizations = [ { name = "Stanford University", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "headshot.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
-  email = "bradsaund@gmail.com"
-  address = "San Carlos, CA"
-  #office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  #phone = "888 888 88 88"
-  #skype = "echo123"
-  #telegram = ""
+  # Details for the Contact Widget
+  email = "test@example.org"
+  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  phone = "888 888 88 88"
+  skype = "echo123"
+  telegram = ""
   keybase = ""  # Your keybase.io username.
 
   # Discussion link (e.g. link to a forum, mailing list, or chat).
@@ -107,7 +99,7 @@ enableGitInfo = false
 
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-  color_theme = "forest"
+  color_theme = "default"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
@@ -207,7 +199,7 @@ enableGitInfo = false
   # Configuration of talk pages.
   [params.talks]
     # Show talk time?
-    time = false
+    time = true
 
   # Configuration of publication pages.
   [params.publications]
@@ -224,7 +216,7 @@ enableGitInfo = false
     #   0 = Simple
     #   1 = Detailed
     #   2 = Stream
-    # post_format = 2
+    post_format = 2
 
     # Publication list format.
     #   0 = Simple
@@ -258,37 +250,32 @@ enableGitInfo = false
   #
   #   Full list: https://jpswalsh.github.io/academicons/
 
-[[params.social]]
+  [[params.social]]
     icon = "envelope"
-    icon_pack = "fa"
-    link = "mailto:brad.saund@gmail.com"
+    icon_pack = "fas"
+    link = "#contact"  # For a direct email link, use "mailto:test@example.org".
 
-  #[[params.social]]
-  #  icon = "twitter"
-  #  icon_pack = "fa"
-  #  link = "//twitter.com/GeorgeCushen"
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fab"
+    link = "https://twitter.com/GeorgeCushen"
 
-  #[[params.social]]
-   # icon = "google-scholar"
-   # icon_pack = "ai"
-   # link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+  [[params.social]]
+    icon = "google-scholar"
+    icon_pack = "ai"
+    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fab"
-    link = "//github.com/bsaund"
-
-  [[params.social]]
-    icon = "linkedin"
-    icon_pack = "fab"
-    link = "//linkedin.com/in/bsaund/"
+    link = "https://github.com/gcushen"
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-   [[params.social]]
-     icon = "cv"
-     icon_pack = "ai"
-     link = "file/Resume.pdf"
+  # [[params.social]]
+  #   icon = "cv"
+  #   icon_pack = "ai"
+  #   link = "files/cv.pdf"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -305,7 +292,7 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Publications"
-  url = "#publications"
+  url = "#publications_selected"
   weight = 2
 
 [[menu.main]]
@@ -318,17 +305,22 @@ enableGitInfo = false
   url = "#projects"
   weight = 4
 
-#[[menu.main]]
-#  name = "Contact"
-#  url = "#contact"
-#  weight = 6
+[[menu.main]]
+  name = "Tutorials"
+  url = "/tutorial/"
+  weight = 5
+
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 6
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-[[menu.main]]
-   name = "Resume"
-   url = "file/Resume.pdf"
-   weight = 5
+# [[menu.main]]
+#    name = "CV"
+#    url = "files/cv.pdf"
+#    weight = 7
 
 # Search.
 [params.search]
