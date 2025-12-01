@@ -56,6 +56,13 @@ enableGitInfo = false
   fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
   smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
 
+# Configure Goldmark (Hugo's current Markdown engine) to allow inline HTML,
+# so links like <a href="...">Download the pdf</a> render correctly.
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   # AUTHOR SETUP
 
