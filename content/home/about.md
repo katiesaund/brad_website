@@ -36,6 +36,31 @@ weight = 5
   # Optional: per-degree logo shown instead of the graduation cap icon.
   # Place the logo file in `static/img/` and set the filename here.
   logo = "caltech-logo.png"
+
+# List your previous employment (condensed summary).
+[[employment.jobs]]
+  title = "Software Engineer: Planning and Controls"
+  company = "Cruise"
+  year = "2022-"
+  logo = "cruise-logo.png"
+
+[[employment.jobs]]
+  title = "Software Engineer: AWS Robotics"
+  company = "Amazon Web Services"
+  year = "2022"
+  logo = "aws-logo.png"
+
+[[employment.jobs]]
+  title = "Software Engineer"
+  company = "Amazon"
+  year = "2014-2015"
+  logo = "amazon-logo.png"
+
+[[employment.jobs]]
+  title = "Robotics Engineer"
+  company = "Electroimpact"
+  year = "2012-2014"
+  logo = "Electroimpact-logo.png"
  
 +++
 

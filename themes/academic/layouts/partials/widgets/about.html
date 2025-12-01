@@ -102,5 +102,30 @@
       {{ end }}
 
     </div>
+
+    {{ with $page.Params.employment }}
+    <div class="row mt-3">
+      <div class="col-12">
+        <h3>Employment</h3>
+        <ul class="ul-edu">
+          {{ range .jobs }}
+          <li class="edu-item">
+            <div class="edu-logo">
+              {{ if .logo }}
+              <img src="{{ (printf "img/%s" .logo) | relURL }}" alt="{{ .company }}">
+              {{ else }}
+              <i class="fas fa-briefcase"></i>
+              {{ end }}
+            </div>
+            <div class="description">
+              <p class="course">{{ .title }}{{ with .year }}, {{ . }}{{ end }}</p>
+              <p class="institution">{{ .company }}</p>
+            </div>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+    {{ end }}
   </div>
 </div>
