@@ -36,4 +36,4 @@ weight = 5
 
 # Biography
 
-I am a PhD Robotics Engineer with 10+ years of experience building autonomous systems, robotic evaluation frameworks, and planning algorithms
+I am a PhD Robotics Engineer with 10+ years of experience building autonomous systems, robotic evaluation frameworks, and planning algorithms.
