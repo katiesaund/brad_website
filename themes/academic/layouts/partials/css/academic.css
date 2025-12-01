@@ -1012,6 +1012,68 @@ article .article-metadata {
   padding-top: 10px;
 }
 
+/* Compact publications layout */
+.pub-list-item {
+  margin-bottom: 0.5rem !important;
+  font-size: 0.85rem;
+}
+
+.pub-list-item h3.article-title {
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+  line-height: 1.3;
+}
+
+.pub-list-item .pub-authors {
+  font-size: 0.8rem;
+  margin-bottom: 0.15rem;
+  line-height: 1.3;
+}
+
+.pub-list-item .pub-publication {
+  font-size: 0.75rem;
+  margin-bottom: 0.15rem;
+}
+
+.pub-list-item .pub-abstract {
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+  line-height: 1.4;
+}
+
+.pub-list-item .btn-links {
+  padding-top: 0.25rem;
+  margin-top: 0.15rem;
+}
+
+.pub-list-item .btn-links .btn {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.4rem;
+  margin-right: 0.25rem;
+  margin-bottom: 0.15rem;
+}
+
+.media.stream-item {
+  margin-bottom: 0.75rem;
+}
+
+.media.stream-item h3.article-title {
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+  line-height: 1.3;
+}
+
+.media.stream-item .article-style {
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+  line-height: 1.4;
+}
+
+.media.stream-item .stream-meta {
+  font-size: 0.75rem;
+  margin-bottom: 0.15rem;
+}
+
 #container-publications {
   display: block;
   position: relative;
@@ -1033,6 +1095,26 @@ article .article-metadata {
 
 .exp-meta {
   font-size: 0.8rem;
+}
+
+.experience {
+  margin-bottom: 0.4rem;
+}
+
+.experience .card {
+  margin-bottom: 0;
+}
+
+.experience .card-body {
+  padding: 0.5rem 0.75rem;
+}
+
+.experience .exp-title {
+  margin-bottom: 0;
+}
+
+.experience .card-text {
+  margin-top: 0.25rem;
 }
 
 .experience .card-text,
