@@ -62,6 +62,19 @@ weight = 5
   year = "2012-2014"
   logo = "Electroimpact-logo.png"
  
+
+# Hero videos beneath Employment
+[[hero_videos]]
+  src = "videos/Laudry_picking.mp4"
+
+[[hero_videos]]
+  src = "videos/BTP_ISRR_compressed.mp4"
+
+[[hero_videos]]
+  src = "videos/pancakes.mp4"
+
+[[hero_videos]]
+  src = "videos/SelectiveDensification.mp4"
 +++
 
 # Biography

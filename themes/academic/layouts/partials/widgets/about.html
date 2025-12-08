@@ -127,5 +127,34 @@
       </div>
     </div>
     {{ end }}
+
   </div>
 </div>
+
+{{ if $page.Params.hero_videos }}
+<div class="container-fluid mt-4">
+  <div class="row">
+    <div class="col-12 d-flex flex-wrap justify-content-center" style="gap: 12px;">
+      {{ range $page.Params.hero_videos }}
+      <div style="flex: 1 1 220px; max-width: 320px;">
+        <video autoplay muted loop playsinline style="width: 100%; display: block;">
+          <source src="{{ .src | relURL }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ else if $page.Params.hero_video }}
+<div class="container-fluid mt-4">
+  <div class="row">
+    <div class="col-12">
+      <video autoplay muted loop playsinline style="width: 100%; max-width: 960px; display: block; margin: 0 auto;">
+        <source src="{{ $page.Params.hero_video.src | relURL }}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</div>
+{{ end }}
