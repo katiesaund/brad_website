@@ -22,7 +22,11 @@ publication = ""
 publication_short = ""
 
 # Abstract and optional shortened version.
-abstract = ""
+abstract = """
+While reaching for your morning coffee you may accidentally bump into the table, yet you reroute your motion with ease and grab your cup. An effective autonomous robot will need to have a similarly seamless recovery from unexpected contact. As simple as this may seem, for decades manufacturing robots were not able to sense contact quickly and precisely enough to stop during a collision, so robots in factory environments lived in tightly controlled and expensively precise work zones. Recent collaborative robots can now stop after collision so successfully they have been deemed safe to work around people. However unexpected contact is still treated as an error that an operator is expected to resolve. Robots operating in our less-structured daily environments will need to reason about the information they have gained from contact and replan autonomously.
+
+This thesis examines planning under uncertainty with contact sensitive robot arms. First addressed is the specific information gained from sensing contact. Most robots do not have skin and cannot precisely sense the location of contact. This leads to the proposed *Collision Hypothesis Set* model for representing a belief over the possible occupancy of the world sensed through contact. To capture the specifics of planning in a heavily occluded environment with this measurement model, we develop a POMDP approach called the *Blindfolded Traveler's Problem* and propose several strategies for practical approximate solutions. Finally, we examine belief representations for the occupancy of the world to more closely approximate a rich prior over possible objects. We propose a neural network for shape completion that combines both visual and contact information.
+"""
   
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -68,10 +72,7 @@ highlight = true
 
 +++
 {{% staticref "file/PhdThesis.pdf" "newtab" %}} 
-Download the pdf{{% /staticref %}}
+Download my PhD Thesis{{% /staticref %}}
 
-Watch the demo: 
-
-{{< youtube Jg-1ZjgNnYE >}}
 
 
